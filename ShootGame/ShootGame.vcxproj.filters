@@ -13,9 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\shaders">
+      <UniqueIdentifier>{b56fc3ff-472d-435b-aed4-63814fe6f80c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,5 +44,69 @@
     <ClCompile Include="ShootGame.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="map.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="map.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="plane.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="plane.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="quad.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="quad.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="cube.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="cube.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="text.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="easy4.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="easy8.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="easy8.frag">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="timg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="canyon_elev.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShootGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
