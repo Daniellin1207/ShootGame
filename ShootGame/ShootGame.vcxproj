@@ -72,23 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\opengl\irrKlang-64bit-1.6.0\include;C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\opengl\irrKlang-64bit-1.6.0\lib\Winx64-visualStudio;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\opengl\irrKlang-64bit-1.6.0\include;C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\opengl\irrKlang-64bit-1.6.0\lib\Winx64-visualStudio;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\opengl\irrKlang-64bit-1.6.0\include;C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\opengl\irrKlang-64bit-1.6.0\lib\Winx64-visualStudio;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\opengl\irrKlang-64bit-1.6.0\include;C:\opengl\glew-2.1.0-win32\glew-2.1.0\include;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\include;C:\opengl\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\opengl\irrKlang-64bit-1.6.0\lib\Winx64-visualStudio;C:\opengl\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015;C:\opengl\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -103,7 +103,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -119,7 +119,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -139,7 +139,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -159,20 +159,30 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Light.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="flat_provoking.cpp" />
+    <ClCompile Include="pbr_ballRender.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="freeType_Test.cpp" />
+    <ClCompile Include="irrklang_music_test.cpp" />
     <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="modelLoading.cpp" />
+    <ClCompile Include="particals.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -183,12 +193,18 @@
     <ClCompile Include="ShootGame.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cubeShpere.frag" />
+    <None Include="cubeShpere.vert" />
     <None Include="easy4.vert" />
     <None Include="easy8.frag" />
     <None Include="easy8.vert" />
     <None Include="map.frag" />
     <None Include="map.vert" />
     <None Include="packages.config" />
+    <None Include="particle.frag" />
+    <None Include="particle.vert" />
+    <None Include="pbr.frag" />
+    <None Include="pbr.vert" />
     <None Include="plane.frag" />
     <None Include="plane.vert" />
     <None Include="quad.frag" />
@@ -197,22 +213,36 @@
     <None Include="cube.vert" />
     <None Include="text.frag" />
     <None Include="text.vert" />
+    <None Include="tri.frag" />
+    <None Include="tri.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="canyon_elev.bmp" />
+    <Image Include="frame.jpg" />
+    <Image Include="grass.png" />
+    <Image Include="snow-packed12-preview-600x600.jpg" />
     <Image Include="timg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ShootGame.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="breakout.mp3" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\ikkepop.freetype.2.8.0\build\native\ikkepop.freetype.targets" Condition="Exists('..\packages\ikkepop.freetype.2.8.0\build\native\ikkepop.freetype.targets')" />
+    <Import Project="..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets" Condition="Exists('..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets')" />
+    <Import Project="..\packages\freetype.2.8.0.1\build\native\freetype.targets" Condition="Exists('..\packages\freetype.2.8.0.1\build\native\freetype.targets')" />
+    <Import Project="..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets" Condition="Exists('..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets')" />
+    <Import Project="..\packages\Assimp.3.0.0\build\native\Assimp.targets" Condition="Exists('..\packages\Assimp.3.0.0\build\native\Assimp.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\ikkepop.freetype.2.8.0\build\native\ikkepop.freetype.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ikkepop.freetype.2.8.0\build\native\ikkepop.freetype.targets'))" />
+    <Error Condition="!Exists('..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\freetype.2.8.0.1\build\native\freetype.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\freetype.2.8.0.1\build\native\freetype.targets'))" />
+    <Error Condition="!Exists('..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\Assimp.3.0.0\build\native\Assimp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Assimp.3.0.0\build\native\Assimp.targets'))" />
   </Target>
 </Project>

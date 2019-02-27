@@ -29,6 +29,7 @@ public:
 	};
 
 	void use();
+	void setVec3(const std::string & name, const glm::vec3 & value) const;
 	void SetUniform3f(const char* paramNameString, glm::vec3 param);
 	void SetUniform1f(const char* paramNameString, float param);
 	void SetUniform1i(const char* paramNameString, int slot);

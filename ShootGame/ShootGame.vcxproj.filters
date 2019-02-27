@@ -36,6 +36,12 @@
     <ClInclude Include="Light.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -53,9 +59,32 @@
     <ClCompile Include="Light.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="particals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="freeType_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="irrklang_music_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modelLoading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pbr_ballRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="flat_provoking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="map.frag">
       <Filter>源文件</Filter>
     </None>
@@ -95,6 +124,31 @@
     <None Include="easy8.frag">
       <Filter>源文件</Filter>
     </None>
+    <None Include="particle.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="particle.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="cubeShpere.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="cubeShpere.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="pbr.frag">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="pbr.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="tri.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="tri.frag">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="timg.jpg">
@@ -103,10 +157,24 @@
     <Image Include="canyon_elev.bmp">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="grass.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="frame.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="snow-packed12-preview-600x600.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ShootGame.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="breakout.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
   </ItemGroup>
 </Project>
